@@ -116,7 +116,7 @@
 <div class="col mb-5">
     <div class="card h-100">
         <!-- Product image -->
-        <a href="./read_novel_1.php">
+        <a href="./novel1_pre.php">
             <img class="card-img-top" src="./assets/img/fortune_white_card.png" alt="..." />
         </a>
         <!-- Product details-->
@@ -131,7 +131,7 @@
         <!-- Product actions-->
         <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
             <div class="text-center">
-                <a class="btn btn-outline-dark mt-auto" href="./read_novel_1.php">Read</a>
+                <a class="btn btn-outline-dark mt-auto" href="./novel1_pre.php">Read</a>
             </div>
         </div>
     </div>

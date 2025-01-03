@@ -11,7 +11,7 @@
     
     <style>
         .comic-episode {
-            display: none; /* ซ่อนตอนทั้งหมด */
+            display: none; 
             width: 100%;
             padding: 20px;
             margin-bottom: 20px;
