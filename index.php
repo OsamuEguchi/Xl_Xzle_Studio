@@ -40,6 +40,8 @@
                 <div class="text-center text-white">
  
 
+       
+
             <!-- Open Slide -->
 <div class="container">
   <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
@@ -234,14 +236,9 @@
         <!-- Footer-->
       <?php include_once 'footer.php'; ?>
 
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- MDB JS -->
-    <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@5.3.0-beta1/dist/js/mdb.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
     
     </body>
 </html>
