@@ -148,19 +148,7 @@
             text-decoration: underline;  
         }
 
-        .shell {
-            width: 30px;
-            height: 30px;
-            background-image: url('./assets/img/shell.png'); /* ใส่ path ของรูปหอย */
-            background-size: contain;
-            background-repeat: no-repeat;
-            display: inline-block;
-            cursor: pointer;
-        }
-
-        .open-shell {
-            background-image: url('./assets/img/shell-open.png'); /* ใส่ path ของรูปหอยที่เปิดแล้ว */
-        }
+     
     </style>
 </head>
 <body>
@@ -174,23 +162,23 @@
                 <a href="./read_novel_1.php">
                     <img src="./assets/img/fortune_white_card.png"  alt="Episode 1 Image">
                 </a>
-                <div class="ep">Ep: 1</div>
+                <div class="ep">ใส่ชื่อตอนที่นี่</div>
             </div>
             <div class="episode">
                 <img src="./assets/img/fortune_white_card.png" alt="Episode 2 Image">
-                <div class="ep">Ep: 2</div>
+                <div class="ep">ใส่ชื่อตอนที่นี่</div>
             </div>
             <div class="episode">
                 <img src="./assets/img/fortune_white_card.png" alt="Episode 3 Image">
-                <div class="ep">Ep: 3</div>
+                <div class="ep">ใส่ชื่อตอนที่นี่</div>
             </div>
             <div class="episode">
                 <img src="./assets/img/fortune_white_card.png" alt="Episode 4 Image">
-                <div class="ep">Ep: 4</div>
+                <div class="ep">ใส่ชื่อตอนที่นี่</div>
             </div>
             <div class="episode">
                 <img src="./assets/img/fortune_white_card.png" alt="Episode 5 Image">
-                <div class="ep">Ep: 5</div>
+                <div class="ep">ใส่ชื่อตอนที่นี่</div>
             </div>
 
             <div class="controls">
@@ -218,22 +206,6 @@
 
     <?php include 'footer.php'; ?>
 
-    <script>
-        // ฟังก์ชั่นการเปิด/ปิดหอย
-        function toggleShell(side) {
-            const shell = document.getElementById(side);
-            shell.classList.toggle('open-shell');
-        }
-
-        // เพิ่ม event listeners ให้กับหอยทั้งสองข้าง
-        document.getElementById('left-shell').addEventListener('click', function() {
-            toggleShell('left-shell');
-        });
-
-        document.getElementById('right-shell').addEventListener('click', function() {
-            toggleShell('right-shell');
-        });
-    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>

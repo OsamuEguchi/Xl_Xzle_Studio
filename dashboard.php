@@ -19,7 +19,7 @@ $role = $_SESSION['role']; // สิทธิ์ของผู้ใช้ (use
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard - Xzle</title>
-    <link rel="stylesheet" href="styles.css"> <!-- ใช้ไฟล์ CSS ที่คุณต้องการ -->
+    <link rel="stylesheet" href="styles.css"> 
 </head>
 <body>
 
@@ -49,8 +49,8 @@ $role = $_SESSION['role']; // สิทธิ์ของผู้ใช้ (use
         <!-- หลังจากที่แสดงผลเสร็จแล้ว ให้เปลี่ยนเส้นทางไปหน้า index.php -->
         <script>
             setTimeout(function() {
-                window.location.href = 'index.php'; // เปลี่ยนเส้นทางไปยังหน้า index.php หลังจาก 3 วินาที
-            }, 3000);  // 3000 มิลลิวินาที = 3 วินาที
+                window.location.href = 'index.php'; 
+            }, 3000);  
         </script>
     </div>
 
